@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-# This is not a complete Makefile of itself.
-# Instead, it is designed to be easily embeddable
-# into other systems of Makefiles.
-#
-
-CONVERT_SRCS = \
-	srcpos.c \
-	util.c
-
-CONVERT_GEN_SRCS = convert-dtsv0-lexer.lex.c
-
-CONVERT_OBJS = $(CONVERT_SRCS:%.c=%.o) $(CONVERT_GEN_SRCS:%.c=%.o)
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a4e5bcd6821dcf3284adc2bf9a7c40ae570d0d570dbb8ac40885ebb07793a61
+size 330
